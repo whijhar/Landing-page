@@ -1,0 +1,33 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Sample configuration for the landing page theme
+# Replace these values with your own!
+
+baseurl: "/simple-landing-page" # the subpath of your site, e.g. /repo-name
+
+name: Whitney Harbour
+email: whitney.harbour@gmail.com
+tagline: "Remote Career Coach"
+description: "I help professionals land flexible, location-independent careers through personalized coaching, targeted job-search strategies, and standout CV and LinkedIn optimization. Whether you're transitioning to your first remote role or leveling up in your remote career, I provide the guidance, tools, and support you need to confidently take the next step—no matter where you are in the world."
+
+# Build settings
+plugins:
+  - jekyll-feed
